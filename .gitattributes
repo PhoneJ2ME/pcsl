@@ -12,6 +12,9 @@ file/GNUmakefile -text
 file/armsd/GNUmakefile -text
 file/armsd/pcsl_armsd.c -text
 file/armsd/pcsl_dir_armsd.c -text
+file/javacall/GNUmakefile -text
+file/javacall/pcsl_dir.c -text
+file/javacall/pcsl_file.c -text
 file/pcsl_directory.h -text
 file/pcsl_file.h -text
 file/posix/GNUmakefile -text
@@ -36,6 +39,7 @@ file/win32/pcsl_dir_win32.c -text
 file/win32/pcsl_win32.c -text
 makefiles/README.build_port -text
 makefiles/platforms/armsd_arm_ads.gmk -text
+makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
 makefiles/platforms/linux_i386_gcc.gmk -text
 makefiles/platforms/win32_i386_vc.gmk -text
@@ -47,6 +51,7 @@ makefiles/share/doxygen_footer.txt -text
 makefiles/share/doxygen_header.txt -text
 makefiles/share/doxygen_style.css -text
 makefiles/share/gcc.gmk -text
+makefiles/share/javacall.gmk -text
 makefiles/share/linux.gmk -text
 makefiles/share/release.gmk -text
 makefiles/share/vc.gmk -text
@@ -62,6 +67,12 @@ memory/malloc/GNUmakefile -text
 memory/malloc/pcsl_chunkmmap_linux.c -text
 memory/malloc/pcsl_memory.c -text
 memory/malloc/pcsl_memory_impl.h -text
+memory/memory_port/GNUmakefile -text
+memory/memory_port/javacall/pcsl_memory_port.c -text
+memory/memory_port/javacall/pcsl_memory_port_impl.h -text
+memory/memory_port/malloc/pcsl_memory_port.c -text
+memory/memory_port/malloc/pcsl_memory_port_impl.h -text
+memory/memory_port/pcsl_memory_port.h -text
 memory/pcsl_memory.h -text
 memory/stubs/GNUmakefile -text
 memory/stubs/pcsl_memory.c -text
@@ -83,6 +94,12 @@ network/bsd/qte/GNUmakefile -text
 network/bsd/qte/pcsl_network_na_qte.cpp -text
 network/bsd/qte/pcsl_network_qte.cpp -text
 network/bsd/qte/pcsl_network_qte.h -text
+network/javacall/GNUmakefile -text
+network/javacall/pcsl_datagram.c -text
+network/javacall/pcsl_network.c -text
+network/javacall/pcsl_network_md.h -text
+network/javacall/pcsl_serversocket.c -text
+network/javacall/pcsl_socket.c -text
 network/pcsl_datagram.h -text
 network/pcsl_network.h -text
 network/pcsl_network_notifier.h -text
@@ -110,6 +127,8 @@ network/winsock/pcsl_udp.c -text
 print/GNUmakefile -text
 print/file/GNUmakefile -text
 print/file/pcsl_print.c -text
+print/javacall/GNUmakefile -text
+print/javacall/pcsl_print.c -text
 print/pcsl_print.h -text
 print/stdout/GNUmakefile -text
 print/stdout/pcsl_print.c -text
@@ -133,6 +152,7 @@ tools/sosProxy/SoSserver.java -text
 types/GNUmakefile -text
 types/armsd_arm_ads/java_types_md.h -text
 types/java_types.h -text
+types/javacall_i386_vc/java_types_md.h -text
 types/linux_arm_gcc/java_types_md.h -text
 types/linux_i386_gcc/java_types_md.h -text
 types/win32_i386_vc/java_types_md.h -text
