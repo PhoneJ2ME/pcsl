@@ -1,4 +1,5 @@
 * text=auto !eol
+/ svnc_svnmerge_002dintegrated
 /GNUmakefile -text
 /QT_README.txt -text
 /README.build -text
