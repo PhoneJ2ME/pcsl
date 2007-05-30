@@ -37,12 +37,16 @@ file/util/pcsl_util_filelist.h -text
 file/win32/GNUmakefile -text
 file/win32/pcsl_dir_win32.c -text
 file/win32/pcsl_win32.c -text
+file/wince/GNUmakefile -text
+file/wince/pcsl_wince.c -text
 makefiles/README.build_port -text
 makefiles/platforms/armsd_arm_ads.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
 makefiles/platforms/linux_i386_gcc.gmk -text
 makefiles/platforms/win32_i386_vc.gmk -text
+makefiles/platforms/wince_arm_evc.gmk -text
+makefiles/platforms/wince_i386_evc.gmk -text
 makefiles/share/Docs.gmk -text
 makefiles/share/ads.gmk -text
 makefiles/share/armsd.gmk -text
@@ -50,12 +54,14 @@ makefiles/share/doxygen.conf -text
 makefiles/share/doxygen_footer.txt -text
 makefiles/share/doxygen_header.txt -text
 makefiles/share/doxygen_style.css -text
+makefiles/share/evc.gmk -text
 makefiles/share/gcc.gmk -text
 makefiles/share/javacall.gmk -text
 makefiles/share/linux.gmk -text
 makefiles/share/release.gmk -text
 makefiles/share/vc.gmk -text
 makefiles/share/win32.gmk -text
+makefiles/share/wince.gmk -text
 makefiles/top.gmk -text
 makefiles/verify.gmk -text
 memory/GNUmakefile -text
@@ -156,3 +162,5 @@ types/javacall_i386_vc/java_types_md.h -text
 types/linux_arm_gcc/java_types_md.h -text
 types/linux_i386_gcc/java_types_md.h -text
 types/win32_i386_vc/java_types_md.h -text
+types/wince_arm_evc/java_types_md.h -text
+types/wince_i386_evc/java_types_md.h -text
