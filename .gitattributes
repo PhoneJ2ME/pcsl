@@ -37,8 +37,6 @@ file/util/pcsl_util_filelist.h -text
 file/win32/GNUmakefile -text
 file/win32/pcsl_dir_win32.c -text
 file/win32/pcsl_win32.c -text
-file/wince/GNUmakefile -text
-file/wince/pcsl_wince.c -text
 makefiles/README.build_port -text
 makefiles/platforms/armsd_arm_ads.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
