@@ -42,6 +42,7 @@ makefiles/platforms/armsd_arm_ads.gmk -text
 makefiles/platforms/javacall_arm_ads.gmk -text
 makefiles/platforms/javacall_arm_evc.gmk -text
 makefiles/platforms/javacall_arm_gcc.gmk -text
+makefiles/platforms/javacall_i386_gcc.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
 makefiles/platforms/linux_i386_gcc.gmk -text
@@ -159,6 +160,7 @@ types/java_types.h -text
 types/javacall_arm_ads/java_types_md.h -text
 types/javacall_arm_evc/java_types_md.h -text
 types/javacall_arm_gcc/java_types_md.h eol=lf
+types/javacall_i386_gcc/java_types_md.h -text
 types/javacall_i386_vc/java_types_md.h -text
 types/linux_arm_gcc/java_types_md.h -text
 types/linux_i386_gcc/java_types_md.h -text
