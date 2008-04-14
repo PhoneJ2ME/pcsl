@@ -46,7 +46,6 @@ makefiles/platforms/javacall_i386_gcc.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
 makefiles/platforms/linux_i386_gcc.gmk -text
-makefiles/platforms/solaris_i386_sun.gmk -text
 makefiles/platforms/win32_i386_vc.gmk -text
 makefiles/share/Docs.gmk -text
 makefiles/share/ads.gmk -text
@@ -60,8 +59,6 @@ makefiles/share/gcc.gmk -text
 makefiles/share/javacall.gmk -text
 makefiles/share/linux.gmk -text
 makefiles/share/release.gmk -text
-makefiles/share/solaris.gmk -text
-makefiles/share/sun.gmk -text
 makefiles/share/vc.gmk -text
 makefiles/share/win32.gmk -text
 makefiles/top.gmk -text
@@ -167,5 +164,4 @@ types/javacall_i386_gcc/java_types_md.h -text
 types/javacall_i386_vc/java_types_md.h -text
 types/linux_arm_gcc/java_types_md.h -text
 types/linux_i386_gcc/java_types_md.h -text
-types/solaris_i386_sun/java_types_md.h -text
 types/win32_i386_vc/java_types_md.h -text
