@@ -11,6 +11,14 @@ donuts/donutsImpl.h -text
 escfilenames/GNUmakefile -text
 escfilenames/pcsl_esc.c -text
 escfilenames/pcsl_esc.h -text
+escfilenames/radix16/GNUmakefile -text
+escfilenames/radix16/pcsl_esc_md.h -text
+escfilenames/radix41/GNUmakefile -text
+escfilenames/radix41/pcsl_esc_md.h -text
+escfilenames/radix64/GNUmakefile -text
+escfilenames/radix64/pcsl_esc_md.h -text
+escfilenames/radix85/GNUmakefile -text
+escfilenames/radix85/pcsl_esc_md.h -text
 escfilenames/testEsc.c -text
 escfilenames/testing/GNUmakefile -text
 escfilenames/testing/pcsl_esc_md.c -text
