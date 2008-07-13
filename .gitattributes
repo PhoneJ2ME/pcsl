@@ -42,6 +42,7 @@ makefiles/platforms/armsd_arm_ads.gmk -text
 makefiles/platforms/javacall_arm_ads.gmk -text
 makefiles/platforms/javacall_arm_evc.gmk -text
 makefiles/platforms/javacall_arm_gcc.gmk -text
+makefiles/platforms/javacall_arm_vc.gmk -text
 makefiles/platforms/javacall_i386_gcc.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
