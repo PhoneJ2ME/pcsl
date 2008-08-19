@@ -65,6 +65,7 @@ makefiles/platforms/linux_i386_gcc.gmk -text
 makefiles/platforms/solaris_i386_gcc.gmk -text
 makefiles/platforms/solaris_i386_sun.gmk -text
 makefiles/platforms/win32_i386_vc.gmk -text
+makefiles/platforms/wince_arm_vc.gmk -text
 makefiles/share/Docs.gmk -text
 makefiles/share/ads.gmk -text
 makefiles/share/armsd.gmk -text
@@ -188,3 +189,4 @@ types/linux_i386_gcc/java_types_md.h -text
 types/solaris_i386_gcc/java_types_md.h -text
 types/solaris_i386_sun/java_types_md.h -text
 types/win32_i386_vc/java_types_md.h -text
+types/wince_arm_vc/java_types_md.h -text

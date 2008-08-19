@@ -25,49 +25,19 @@
 #
 ######################################################################
 #
-# compiler specific designs
+# To be included for win32_i386_vc platform
 #
 ######################################################################
 
-CC=cl
-AR=lib /NOLOGO
-CPP=cl
-LD=link
+PCSL_OS=wince
+PCSL_CPU=arm
 
-# Flag descriptions:
-#
-# /WX     treats all compiler warnings as errors
-# /c      compile w/o linking
-# /W3     warnings level
-# -Zi     produces a program database (PDB)
-# -Od     disables optimization
-# -MDd    debug on
-#
+# define chunk memory implementation and src directory
+PCSL_CHUNKMEM_IMPL=pcsl_chunkheap
+PCSL_CHUNKMEM_DIR=$(PCSL_DIR)/memory/heap
 
+FILE_MODULE=win32
+NETWORK_MODULE=winsock
 
-ifeq ($(USE_DEBUG), true)
-CFLAGS= /WX /c /W3 -Zi -Od -MDd /nologo
-LD_FLAGS= /debug
-else
-CFLAGS= /WX /c /W3 /MD /nologo
-LD_FLAGS=
-endif
-
-ifeq ($(USE_VS2005), true)
-CFLAGS += /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE
-endif
-
-ifeq ($(USE_DEBUG), true)
-CFLAGS= /c /W2 -Zi -Od -MDd /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE -D_WIN32_WCE=400 -DUNDER_CE=400 -DARM -D_ARM -D_ARM_ -DUNICODE -D_UNICODE /nologo
-LD_FLAGS= /debug
-else
-CFLAGS= /c /W2 /MD /D_CRT_SECURE_NO_DEPRECATE /D_CRT_NONSTDC_NO_DEPRECATE -D_WIN32_WCE=400 -DUNDER_CE=400 -DARM -D_ARM -D_ARM_ -DUNICODE -D_UNICODE /nologo
-LD_FLAGS=
-endif
-
-
-CC_OUTPUT=/Fo
-AR_OUTPUT=/OUT:
-LD_OUTPUT=/OUT:
-
-LIB_EXT=.lib
+include $(PCSL_DIR)/makefiles/share/win32.gmk
+include $(PCSL_DIR)/makefiles/share/vc.gmk
