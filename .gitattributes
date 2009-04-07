@@ -103,8 +103,6 @@ memory/stubs/GNUmakefile -text
 memory/stubs/pcsl_memory.c -text
 memory/stubs/pcsl_memory_impl.h -text
 memory/testMem.c -text
-memory/wrapper/GNUmakefile -text
-memory/wrapper/pcsl_memory_wrappers.c -text
 network/GNUmakefile -text
 network/bsd/GNUmakefile -text
 network/bsd/generic/GNUmakefile -text
