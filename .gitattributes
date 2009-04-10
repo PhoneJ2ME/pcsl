@@ -99,11 +99,12 @@ memory/memory_port/malloc/pcsl_memory_port.c -text
 memory/memory_port/malloc/pcsl_memory_port_impl.h -text
 memory/memory_port/pcsl_memory_port.h -text
 memory/pcsl_memory.h -text
-memory/pcsl_memory_wrappers.c -text
 memory/stubs/GNUmakefile -text
 memory/stubs/pcsl_memory.c -text
 memory/stubs/pcsl_memory_impl.h -text
 memory/testMem.c -text
+memory/wrapper/GNUmakefile -text
+memory/wrapper/pcsl_memory_wrappers.c -text
 network/GNUmakefile -text
 network/bsd/GNUmakefile -text
 network/bsd/generic/GNUmakefile -text
