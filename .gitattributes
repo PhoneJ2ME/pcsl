@@ -59,6 +59,7 @@ makefiles/platforms/javacall_arm_evc.gmk -text
 makefiles/platforms/javacall_arm_gcc.gmk -text
 makefiles/platforms/javacall_arm_vc.gmk -text
 makefiles/platforms/javacall_i386_gcc.gmk -text
+makefiles/platforms/javacall_i386_gcc_darwin.gmk -text
 makefiles/platforms/javacall_i386_vc.gmk -text
 makefiles/platforms/linux_arm_gcc.gmk -text
 makefiles/platforms/linux_i386_gcc.gmk -text
@@ -182,6 +183,7 @@ types/javacall_arm_evc/java_types_md.h -text
 types/javacall_arm_gcc/java_types_md.h eol=lf
 types/javacall_arm_vc/java_types_md.h -text
 types/javacall_i386_gcc/java_types_md.h -text
+types/javacall_i386_gcc_darwin/java_types_md.h -text
 types/javacall_i386_vc/java_types_md.h -text
 types/linux_arm_gcc/java_types_md.h -text
 types/linux_i386_gcc/java_types_md.h -text
